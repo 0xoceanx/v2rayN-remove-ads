@@ -1,0 +1,3 @@
+﻿1.pull from remote git
+2.comment promotion and useless context menu strip in MainForm.cs
+3.build

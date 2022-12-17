@@ -281,5 +281,15 @@ namespace v2rayN.Forms
         {
             DialogResult = DialogResult.Cancel;
         }
+
+        private void panTrojan_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

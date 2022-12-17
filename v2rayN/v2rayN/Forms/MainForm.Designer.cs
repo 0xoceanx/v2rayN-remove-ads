@@ -128,7 +128,7 @@
             this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbLanguageDef = new System.Windows.Forms.ToolStripMenuItem();
             this.tsbLanguageZhHans = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsbPromotion = new System.Windows.Forms.ToolStripButton();
+            //this.tsbPromotion = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbClose = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.scServers)).BeginInit();
@@ -488,12 +488,12 @@
             this.menuSysAgentMode,
             this.menuRoutings,
             this.menuServers,
-            this.toolStripSeparator13,
-            this.menuAddServers2,
-            this.menuScanScreen2,
-            this.menuUpdateSubscriptions,
-            this.menuUpdateSubViaProxy,
-            this.toolStripSeparator2,
+            //this.toolStripSeparator13,
+            //this.menuAddServers2,
+            //this.menuScanScreen2,
+            //this.menuUpdateSubscriptions,
+            //this.menuUpdateSubViaProxy,
+            //this.toolStripSeparator2,
             this.menuExit});
             this.cmsMain.Name = "contextMenuStrip1";
             this.cmsMain.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
@@ -598,7 +598,7 @@
             this.tsbCheckUpdate,
             this.toolStripSeparator10,
             this.tsbHelp,
-            this.tsbPromotion,
+            //this.tsbPromotion,
             this.toolStripSeparator11,
             this.tsbClose});
             resources.ApplyResources(this.tsMain, "tsMain");
@@ -854,11 +854,11 @@
             // 
             // tsbPromotion
             // 
-            this.tsbPromotion.ForeColor = System.Drawing.Color.Black;
-            this.tsbPromotion.Image = global::v2rayN.Properties.Resources.promotion;
-            resources.ApplyResources(this.tsbPromotion, "tsbPromotion");
-            this.tsbPromotion.Name = "tsbPromotion";
-            this.tsbPromotion.Click += new System.EventHandler(this.tsbPromotion_Click);
+            //this.tsbPromotion.ForeColor = System.Drawing.Color.Black;
+            //this.tsbPromotion.Image = global::v2rayN.Properties.Resources.promotion;
+            //resources.ApplyResources(this.tsbPromotion, "tsbPromotion");
+            //this.tsbPromotion.Name = "tsbPromotion";
+            //this.tsbPromotion.Click += new System.EventHandler(this.tsbPromotion_Click);
             // 
             // toolStripSeparator11
             // 
@@ -962,7 +962,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator12;
         private System.Windows.Forms.ToolStripMenuItem tsbLanguageDef;
         private System.Windows.Forms.ToolStripMenuItem tsbLanguageZhHans;
-        private System.Windows.Forms.ToolStripButton tsbPromotion;
+        //private System.Windows.Forms.ToolStripButton tsbPromotion;
         private System.Windows.Forms.ToolStripMenuItem menuAddSocksServer;
         private System.Windows.Forms.ToolStripMenuItem menuRemoveDuplicateServer;
         private System.Windows.Forms.ToolStripMenuItem menuTcpingServer;

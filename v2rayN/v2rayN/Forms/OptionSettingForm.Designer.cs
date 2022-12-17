@@ -70,6 +70,7 @@
             this.txtKcpmtu = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.chkEnableCheckPreReleaseUpdate = new System.Windows.Forms.CheckBox();
             this.numStatisticsFreshRate = new System.Windows.Forms.NumericUpDown();
             this.txttrayMenuServersLimit = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
@@ -108,7 +109,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnOK = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.chkEnableCheckPreReleaseUpdate = new System.Windows.Forms.CheckBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -422,6 +422,12 @@
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
+            // chkEnableCheckPreReleaseUpdate
+            // 
+            resources.ApplyResources(this.chkEnableCheckPreReleaseUpdate, "chkEnableCheckPreReleaseUpdate");
+            this.chkEnableCheckPreReleaseUpdate.Name = "chkEnableCheckPreReleaseUpdate";
+            this.chkEnableCheckPreReleaseUpdate.UseVisualStyleBackColor = true;
+            // 
             // numStatisticsFreshRate
             // 
             resources.ApplyResources(this.numStatisticsFreshRate, "numStatisticsFreshRate");
@@ -657,12 +663,6 @@
             // 
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
-            // 
-            // chkEnableCheckPreReleaseUpdate
-            // 
-            resources.ApplyResources(this.chkEnableCheckPreReleaseUpdate, "chkEnableCheckPreReleaseUpdate");
-            this.chkEnableCheckPreReleaseUpdate.Name = "chkEnableCheckPreReleaseUpdate";
-            this.chkEnableCheckPreReleaseUpdate.UseVisualStyleBackColor = true;
             // 
             // OptionSettingForm
             // 
